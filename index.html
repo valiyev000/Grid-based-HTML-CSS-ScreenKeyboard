@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard-task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main>
+        <input type="checkbox" name="checkbox" id="keyboard-checkbox">
+        <label for="keyboard-checkbox" id="label-box">
+            <div id="circle"></div>
+        </label>
+        <div class="grid-container"> <!-- BUTUN BOX'LAR DEFAULT "size-22fr flex-center-center" GELIR -->
+            <div class="keys size-23fr font-sm">esc</div>
+            <div class="keys size-23fr font-sm">F1</div>
+            <div class="keys size-23fr font-sm">F2</div>
+            <div class="keys size-23fr font-sm">F3</div>
+            <div class="keys size-23fr font-sm">F4</div>
+            <div class="keys size-23fr font-sm">F5</div>
+            <div class="keys size-23fr font-sm">F6</div>
+            <div class="keys size-23fr font-sm">F7</div>
+            <div class="keys size-23fr font-sm">F8</div>
+            <div class="keys size-23fr font-sm">F9</div>
+            <div class="keys size-23fr font-sm">F10</div>
+            <div class="keys size-23fr font-sm">F11</div>
+            <div class="keys size-23fr font-sm">F12</div>
+            <div class="keys size-23fr font-sm"><img src="./icon/switch-icon.svg" alt="switch-icon"></div>
+            <div class="keys line-height font-lg">~ <br>`</div>
+            <div class="keys line-height font-lg">!<br>1</div>
+            <div class="keys line-height font-lg">@<br>2</div>
+            <div class="keys line-height font-lg">#<br>3</div>
+            <div class="keys line-height font-lg">$<br>4</div>
+            <div class="keys line-height font-lg">%<br>5</div>
+            <div class="keys line-height font-lg">^<br>6</div>
+            <div class="keys line-height font-lg">&<br>7</div>
+            <div class="keys line-height font-lg">*<br>8</div>
+            <div class="keys line-height font-lg">&#40<br>9</div>
+            <div class="keys line-height font-lg">&#41<br>0</div>
+            <div class="keys line-height font-lg">_<br>-</div>
+            <div class="keys line-height font-lg">+<br>=</div>
+            <div class="keys size-36fr flex-bottom-left font-sm">delete</div>
+            <div class="keys size-36fr flex-bottom-left font-sm">tab</div>
+            <div class="keys font-lg">Q</div>
+            <div class="keys font-lg">W</div>
+            <div class="keys font-lg">E</div>
+            <div class="keys font-lg">R</div>
+            <div class="keys font-lg">T</div>
+            <div class="keys font-lg">Y</div>
+            <div class="keys font-lg">U</div>
+            <div class="keys font-lg">I</div>
+            <div class="keys font-lg">O</div>
+            <div class="keys font-lg">P</div>
+            <div class="keys font-lg line-height">&#123 <br> &#91</div> <!-- { -->
+            <div class="keys font-lg line-height">&#125 <br> &#93</div> <!-- } -->
+            <div class="keys font-lg line-height">&#124 <br> &#92</div> <!-- | -->
+            <div class="keys size-40fr font-sm flex-bottom-left">caps lock <img class="position-top-left" src="./icon/caps-lock-flash-icon.svg" alt="caps-lock-flash-icon"></div>
+            <div class="keys font-lg">A</div>
+            <div class="keys font-lg">S</div>
+            <div class="keys font-lg">D</div>
+            <div class="keys font-lg">F</div>
+            <div class="keys font-lg">G</div>
+            <div class="keys font-lg">H</div>
+            <div class="keys font-lg">J</div>
+            <div class="keys font-lg">K</div>
+            <div class="keys font-lg">L</div>
+            <div class="keys font-lg line-height">: <br>;</div>
+            <div class="keys font-lg line-height">" <br>'</div>
+            <div class="keys size-40fr flex-bottom-right font-sm">return</div>
+            <div class="keys size-51fr font-sm flex-bottom-left">shift</div>
+            <div class="keys font-lg">Z</div>
+            <div class="keys font-lg">X</div>
+            <div class="keys font-lg">C</div>
+            <div class="keys font-lg">V</div>
+            <div class="keys font-lg">B</div>
+            <div class="keys font-lg">N</div>
+            <div class="keys font-lg">M</div>
+            <div class="keys font-lg line-height">&#60 <br>,</div> <!-- < -->
+            <div class="keys font-lg line-height">&#62 <br>.</div> <!-- >-->
+            <div class="keys font-lg line-height">? <br>/</div>
+            <div class="keys size-51fr font-sm flex-bottom-right">shift</div>
+            <div class="keys double-row flex-bottom-left font-sm">fn</div>
+            <div class="keys double-row flex-bottom font-sm">control <img class="position-top-right" src="./icon/control-icon.svg" alt="control-icon"></div>
+            <div class="keys double-row flex-bottom font-sm">option <img class="position-top-right" src="./icon/option-icon.svg" alt="option-icon"></div>
+            <div class="keys double-row size-28fr flex-bottom font-sm">command <img class="position-top-right" src="./icon/command-icon.svg" alt="command-icon"></div>
+            <div class="keys double-row size-112fr"></div>
+            <div class="keys double-row size-28fr flex-bottom font-sm">command <img class="position-top-left" src="./icon/command-icon.svg" alt="command-icon"></div>
+            <div class="keys double-row flex-bottom font-sm">option <img class="position-top-left" src="./icon/option-icon.svg" alt="option-icon"></div>
+            <div class="keys transparent">NONE</div> <!-- bos olmalidi -->
+            <div class="keys">▲</div> <!-- ^ -->
+            <div class="keys transparent">NONE</div> <!-- bos olmalidi -->
+            <div class="keys">◀</div> <!-- "<" -->
+            <div class="keys">▼</div> <!-- ↓-->
+            <div class="keys">▶</div> <!-- ">" -->
+        </div>
+
+
+
+    </main>
+    <div id="test"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
